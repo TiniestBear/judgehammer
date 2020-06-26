@@ -5,8 +5,15 @@
  */
 
 var app = require('../app');
+var db = require('../db');
 var debug = require('debug')('judgehammer-back:server');
 var http = require('http');
+
+/**
+ * Setup db connection.
+ */
+
+//db.openDbConnection();
 
 /**
  * Get port from environment and store in Express.
